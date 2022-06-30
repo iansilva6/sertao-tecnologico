@@ -2,7 +2,9 @@ import * as React from "react";
 import { Container } from "react-bootstrap";
 import {
   MySEO,
-  TopSection
+  TopSection,
+  Courses,
+  Teachers
 } from "../components";
 
 const IndexPage = () => {
@@ -11,6 +13,8 @@ const IndexPage = () => {
       <MySEO />
       <main>
         <TopSection/>
+        <Courses/>
+        <Teachers/>
       </main>
     </>
   );

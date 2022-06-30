@@ -8,7 +8,7 @@ import logo from '../../images/logo.webp';
 
 export default function () {
   return (
-    <Section className={"mt-3"}>
+    <Section className={"mt-2 mb-5"}>
       <Container>
         <Row>
           <Col sm={12}>

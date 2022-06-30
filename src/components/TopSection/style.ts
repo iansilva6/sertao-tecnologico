@@ -1,12 +1,10 @@
 import styled from 'styled-components';
-import banner from '../../images/banner.webp';
+//import banner from '../../images/banner.webp';
 
 export const Section = styled.section`
+    width: 100%;
     height: 100vh;
-    background: url(${banner})center no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
+    background: #198754;
 `;
 
 export const Title = styled.h2`
