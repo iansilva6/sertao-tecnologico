@@ -4,7 +4,8 @@ import {
   TopSection,
   Courses,
   Teachers,
-  Faq
+  Faq,
+  Footer
 } from "../components";
 
 const IndexPage = () => {
@@ -16,6 +17,7 @@ const IndexPage = () => {
         <Courses/>
         <Teachers/>
         <Faq/>
+        <Footer/>
       </main>
     </>
   );

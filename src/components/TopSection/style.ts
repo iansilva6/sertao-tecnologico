@@ -5,6 +5,7 @@ export const Section = styled.section`
     width: 100%;
     height: 600px;
     background: #198754;
+    color: #fff;
 `;
 
 export const Title = styled.h2`

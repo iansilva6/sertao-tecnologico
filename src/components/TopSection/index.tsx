@@ -28,6 +28,9 @@ export default function () {
           </Col>
           <Col md={6}>
             <div className="d-grid gap-1 mx-5">
+              <h2 className="text-center"><b>INSCRIÇÕES GRATUITAS</b></h2>
+              <h4><b>Local:</b> Colégio Estadual Imaculada Conceição</h4>
+              <h4><b>Data:</b> 10/10/2022</h4>
               <Button variant="outline-light" size="lg">Inscreva-se</Button>
             </div>
           </Col>
