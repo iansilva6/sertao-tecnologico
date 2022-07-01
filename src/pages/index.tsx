@@ -1,10 +1,10 @@
 import * as React from "react";
-import { Container } from "react-bootstrap";
 import {
   MySEO,
   TopSection,
   Courses,
-  Teachers
+  Teachers,
+  Faq
 } from "../components";
 
 const IndexPage = () => {
@@ -15,6 +15,7 @@ const IndexPage = () => {
         <TopSection/>
         <Courses/>
         <Teachers/>
+        <Faq/>
       </main>
     </>
   );

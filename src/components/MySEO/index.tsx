@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { SEO } from "../../interfaces";
 
 const MySEO: React.FC<SEO> = ({
-  title = "Polen para Empresas",
+  title = "Sertão Tecnológico",
   description = "Aproveite o poder das celebridades para espalhar a emoção e potencializar o seu negócio! Tudo com muita rapidez e facilidade para melhor atender à sua empresa.",
   canonical = "https://polen.me/empresas",
   site_name = "Polen.me",
@@ -57,7 +57,7 @@ const MySEO: React.FC<SEO> = ({
         <meta property="og:site_name" content={site_name} key="og-site-name" />
         {type && <meta property="og:type" content={type} key="og-type" />}
         {video && <meta property="og:video" content={video} key="og-video" />}
-        <title>Polen B2B</title>
+        <title>{title}</title>
       </Helmet>
     </>
   );
